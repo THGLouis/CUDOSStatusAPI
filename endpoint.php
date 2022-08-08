@@ -49,7 +49,7 @@ if(!$view){
 }
 
 if($view == 'jailed'){
-echo $jailed;
+   echo $jailed;
 }
 
 if($view == 'poolheight'){
