@@ -48,7 +48,7 @@
    }
 
    if($_GET['view'] == 'jailed'){
-   echo $jailed;
+      echo $jailed;
    }
 
    if($_GET['view'] == 'poolheight'){
