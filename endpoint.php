@@ -39,7 +39,7 @@ if($validator['jailed']){
 	$jailed = 0;
 }
 
-$monitoringarray = array("poolheight"=>$stakingpool['height'],"validatorheight"=>$validator['height'],"missedblockcount"=>$validatorsigninginfos['missedBlocksCounter'],"validatorjailed"=>$jailed);
+$monitoringarray = array("validator"=>$address,"poolheight"=>$stakingpool['height'],"validatorheight"=>$validator['height'],"missedblockcount"=>$validatorsigninginfos['missedBlocksCounter'],"validatorjailed"=>$jailed);
 
 $view = $_GET['view'];
 
